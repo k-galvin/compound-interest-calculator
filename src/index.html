@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compound Interest Calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <!--Title-->
+    <h1>Compound Interest Calculator</h1>
+  </header>
+
+  <main>
+
+
+    <!--Form containing labels, input, and calculation button-->
+    <form>
+      <!-- Input Boxes and Labels -->
+      <div class="input-area">
+        <!--Subtitle-->
+        <div class="subtitle">Enter Your Values Here:</div>
+
+        <!-- Rate Input -->
+        <label>Enter your interest rate:</label>
+        <input type="text" id="rate" class="input-box" placeholder="Enter interest rate"></input>
+
+        <!-- Initial Amount Input -->
+        <label>Enter your principal amount:</label>
+        <input type="text" id="amount" class="input-box" placeholder="Enter principal amount"></input>
+
+        <!-- Frequency Input -->
+        <label>Select your compounding frequency:</label>
+        <select name="frequency" id="frequency" class="input-box">
+          <option value="12">Monthly</option>
+          <option value="4">Quarterly</option>
+          <option value="2">Biannually</option>
+          <option value="1">Annually</option>
+        </select>
+
+        <!-- Time Input -->
+        <label>Choose your total # years:</label>
+        <div class="slider-section">
+          1<input type="range" min="1" max="10" value="5" class="slider" id="time">10
+          <div id="slider-value" class="slider-value"></div>
+        </div>
+      </div>
+
+      <div class="output-area">
+        <!-- Calculate Interest Button -->
+        <button onclick="calculateInterest()">Calculate Interest</button>
+
+        <!-- Output Line -->
+        <output class="subtitle"><span>Your Total Will Be: <a id="interest"></a></span></output>
+      </div>
+    </form>
+
+    <!-- Caculator Image -->
+    <img src="calculator.png"></img>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <a href="https://replit.com/@KateGalvin/CompoundInterestSite">View Replit Code</a>
+    <div><a
+        href="https://www.freepik.com/free-vector/money-pattern-background-wallpaper-vector-finance-illustration_18704841.htm#query=money%20background&position=16&from_view=keyword&track=ais">Images
+        by rawpixel.com</a> on Freepik</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
