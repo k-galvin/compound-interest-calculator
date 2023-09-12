@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,10 +15,8 @@
   </header>
 
   <main>
-
-
-    <!--Form containing labels, input, and calculation button-->
-    <form>
+    <!--Section containing labels, input, and calculation button-->
+    <div>
       <!-- Input Boxes and Labels -->
       <div class="input-area">
         <!--Subtitle-->
@@ -48,23 +45,26 @@
           1<input type="range" min="1" max="10" value="5" class="slider" id="time">10
           <div id="slider-value" class="slider-value"></div>
         </div>
+
       </div>
 
       <div class="output-area">
         <!-- Calculate Interest Button -->
-        <button onclick="calculateInterest()">Calculate Interest</button>
+        <button id="button"">Calculate Interest</button>
 
         <!-- Output Line -->
-        <output class="subtitle"><span>Your Total Will Be: <a id="interest"></a></span></output>
+        <output class="subtitle"><span>Your Total Will Be: <a id="total"></a></span></output>
+          <output class="subtitle"><span>Your Profit Will Be: <a id="profit"></a></span></output>
       </div>
-    </form>
+
+    </div>
 
     <!-- Caculator Image -->
     <img src="calculator.png"></img>
 
   </main>
 
-  <!-- Footer -->
+  <!-- Footer with links-->
   <footer>
     <a href="https://replit.com/@KateGalvin/CompoundInterestSite">View Replit Code</a>
     <div><a
