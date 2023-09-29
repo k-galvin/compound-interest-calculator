@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/IJjB7vu2)
 **CMSI 2021** Web Application Development, Fall 2023
 
 # Assignment 0914
@@ -14,15 +13,18 @@ We start our practicum with a standalone web app—one that does not need to com
 * Review Dr. Toal’s course notes for the introduction to web apps, HTML, CSS, JavaScript. Follow any links in the notes that interest you
 
 ## For Submission
-Create a web app for computing [compound interest](https://en.wikipedia.org/wiki/Compound_interest). The core of the page will have a form with input fields for principal, interest rate, number of times compounded per year, and the total number of years. As these values change, you will update fields showing the amount of money you earned, and the total amount.
+Create a web app for computing [compound interest](https://en.wikipedia.org/wiki/Compound_interest). The core of the page will have a form with input fields for principal, interest rate, number of times compounded per year, and the total number of years. As these values change, you will update fields showing the amount of money you earned, and the total amount. The calculation must be functional, robust, and correct.
 
-In addition to the app working correctly, the following are required (as one goal of this assignment is to get you to actually use a large amount of HTML and CSS):
+In addition to the app working correctly, the web app layout must demonstrate these characteristics:
+* Responsiveness—the site must look good on mobile and web (narrow or wide screen)
+* Site balance and aesthetics—Use colors and contrast properly! Line things up! We aren’t expected to be visual artists, but we can strive to present information in a way that is clear and usable. Optionally, get a designer friend of yours to critique your work
+
+To attain the aforementioned qualities, the following are required—_all_ of them, or no credit will be awarded (as one goal of this assignment is to get you to actually use a large amount of HTML and CSS):
 
 * A background image or gradient
 * A non-standard font (show that you can import a font from Google Fonts or similar)
 * A grid layout for the main content of the site, so that it has a header and footer
 * A flex layout to make the form look gorgeous
-* Responsiveness: the site must look good on mobile and web (narrow or wide screen)
 * A nice title (perhaps an `h1` element, with matching CSS)
 * A fun image or two
 * A variety of input elements: don’t just use text! (sliders; `select`s for common values; etc.)
@@ -31,7 +33,6 @@ In addition to the app working correctly, the following are required (as one goa
 * At least one transform
 * At least one text shadow
 * A footer with a link to the [Replit](https://replit.com) or [Code Sandbox](https://codesandbox.io) repo where the live version of your app can be found
-* Site balance and aesthetics! Use colors and contrast properly! Line things up! Optionally, get a designer friend of yours to critique your work
 
 Build your site on either [Replit](https://replit.com) or [Code Sandbox](https://codesandbox.io). Test it well.
 
@@ -54,27 +55,15 @@ For this particular assignment, graded categories are as follows:
 
 | Category | Points |
 | -------- | -----: |
-| Baseline functionality | 35 points total |
-| • Ability to enter principal, interest rate, number of times compounded per year, and the total number of years | 10 points|
+| Baseline functionality | 40 points total |
+| • Ability to enter the necessary arguments:<br/>  - principal<br/>  - interest rate<br/>  - number of times compounded per year<br/>  - total number of years | 15 points |
 | • Correct computation of compound interest | 15 points |
 | • Effective display of result | 10 points |
-| Implementation specifications | 60 points total |
-| • Background image or gradient | |
-| • Non-standard font | |
-| • Grid layout for the main content | |
-| • Flex layout for the form | |
-| • Responsiveness | |
-| • Title | |
-| • Fun image(s) | |
-| • Input other than text | |
-| • Margin | |
-| • Padding | |
-| • Border | |
-| • Transition | |
-| • Transform | |
-| • Text shadow | |
-| • Footer with link | |
-| • Site balance | |
+| Baseline design/layout | 35 points total |
+| • Responsiveness | 20 points |
+| • Site balance and aesthetics | 15 points |
+| Implementation specifications | 20 points—all or nothing |
+| • Background image or gradient<br/>• Non-standard font<br/>• Grid layout for the main content<br/>• Flex layout for the form<br/>• Title<br/>• Fun image(s)<br/>• Input other than text<br/>• Margin<br/>• Padding<br/>• Border<br/>• Transition<br/>• Transform<br/>• Text shadow<br/>• Footer with link | |
 | App description in _about.md_ | 5 points total |
 | Hard-to-maintain or error-prone code | deduction only |
 | Hard-to-read or inadequately-formatted code | deduction only |
