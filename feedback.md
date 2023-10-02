@@ -7,12 +7,12 @@
 | Category | Feedback | Points |
 | --- | --- | ---: |
 | **Baseline functionality** | | |
-| • Necessary arguments | Necessary arguments can be entered easily and succesfully | 15/15 |
+| • Necessary arguments | Necessary arguments can be entered easily and successfully | 15/15 |
 | • Correct computation | Compound interest is computed correctly | 15/15 |
 | • Display of result | Results are displayed effectively—nice job separating the earnings and final balance display! | 10/10 |
 | **Baseline design/layout** | | |
 | • Responsiveness | Good | 20/20 |
-| • Site balance and aesthetics | Very good, great color theme | 15/15 |
+| • Site balance and aesthetics | Site balance and aesthetic meet criteria; great color theme! | 15/15 |
 | **Implementation specifications** | | |
 | • Background image or gradient | Meets criteria with image | ✅  |
 | • Non-standard font | Met with Open Sans | ✅  |
@@ -33,6 +33,6 @@
 | _about.md_ | Great formatting, covers everything | 5/5 |
 | Code maintainability | No major code maintainability issues were found |  |
 | Code readability | No major code readability issues found |  |
-| Version control | Fine since version control handled by replit |  |
+| Version control | Fine since version control handled by ReplIt |  |
 | Punctuality | Latest commit 9/13 1:25pm. On time |  |
 | | **Total** | **101/100** |
